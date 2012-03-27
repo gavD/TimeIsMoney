@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimeIsMoney</string>
+    <string name="attendees">Attendees</string>
+    <string name="meetingHasCost">This meeting has cost:</string>
+    <string name="start">Start</string>
+    <string name="zero">0</string>
+    <string name="stop">stop</string>
+    <string name="summaryPlaceholder">Summary</string>
+    <string name="costPlaceholder">£12.23</string>
+    <string name="infoPlaceholder">4 people at £460p/h attended
+It cost 80 company minutes</string>
+    <string name="submit">Submit</string>
+</resources>

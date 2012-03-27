@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/meetingHasCost"
+        android:textSize="40sp" />
+    
+    <TextView
+        android:id="@+id/textCost"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="20dp"
+        android:layout_weight="0.18"
+        android:gravity="center_horizontal|center_vertical"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textSize="50sp"/>
+    
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+	    android:background="#333333"
+	    android:orientation="vertical" >
+        
+	    <Button
+	        android:id="@+id/btnAction"
+	        android:layout_width="245dp"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="20dp"
+	        android:text="@string/stop" />
+	    
+    </LinearLayout>
+</LinearLayout>

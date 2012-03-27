@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/summaryPlaceholder"
+        android:textSize="40sp" />
+    
+    <TextView
+        android:id="@+id/textCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="0.02"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/costPlaceholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.00"
+        android:text="@string/infoPlaceholder"
+        android:textSize="40sp" />
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#333333"
+        android:orientation="vertical" >
+        
+        <Button
+            android:id="@+id/btnAction"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/submit" />
+        
+    </LinearLayout>
+</LinearLayout>
