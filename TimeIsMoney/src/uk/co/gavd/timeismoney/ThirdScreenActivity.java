@@ -23,13 +23,9 @@ public class ThirdScreenActivity extends Activity {
 		int people = i.getIntExtra("people", 0);
 		int seconds = i.getIntExtra("seconds", 0);
 		
-		TextView textCost = (TextView) findViewById(R.id.textCost);
-		textCost.setText(cost);
-		Log.println(Log.INFO, "BOX", "cost : " + cost);
-		
 		TextView textInfo = (TextView) findViewById(R.id.textInfo);
-		textInfo.setText(people + " people at " + (people * 115) // TODO remove magic number
-			+ " p/h attended.\nIt cost " + Math.round(seconds / 60) + " company minutes");
+		textInfo.setText(people + " people at £" + (people * Constants.POUNDS_PER_HOUR)
+			+ " p/h attended.\nIt cost " + Math.round(seconds / 60) + " company minutes.");
 		Log.println(Log.INFO, "BOX", "cost : " + cost);
 		
 		Button btnAction = (Button) findViewById(R.id.btnAction);

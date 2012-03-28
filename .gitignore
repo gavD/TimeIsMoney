@@ -1,2 +1,5 @@
 TimeIsMoney/bin
 TimeIsMoney/gen
+bin
+*.log
+TimeIsMoneyTest/bin

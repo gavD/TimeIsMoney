@@ -8,7 +8,7 @@
         android:id="@+id/peopleCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
         android:text="@string/zero"
         android:textSize="40sp" />

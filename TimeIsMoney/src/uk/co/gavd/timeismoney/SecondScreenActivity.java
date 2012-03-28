@@ -14,7 +14,7 @@ public class SecondScreenActivity extends Activity {
 	private Button btnAction;
 	private int people;
 	
-	private static final int PENCE_PER_HOUR = 115 * 100;
+	private static final int PENCE_PER_HOUR = Constants.POUNDS_PER_HOUR * 100;
 	
     /** Called when the activity is first created. */
     public void onCreate(Bundle savedInstanceState) {
@@ -51,6 +51,12 @@ public class SecondScreenActivity extends Activity {
     	});
     }
    
+    /**
+     * Called by the timer every second
+     * 
+     * @param costInPounds How much has been spent by having the number
+     * of people in the room for the amount of time at the hourly rate
+     */
     public void reportCost(double costInPounds) {
     	textCost.setText("£" + Math.round(costInPounds));
     }
