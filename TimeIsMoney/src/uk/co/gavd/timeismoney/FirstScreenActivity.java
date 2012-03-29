@@ -70,7 +70,6 @@ public class FirstScreenActivity extends FullScreenActivity {
         seekBar.setOnSeekBarChangeListener(seekBarChangeListener); 
     }
 
-
     /**
      * Listener for the seek bar so when the seek bar is changed we
      * change the number of people attending the meeting

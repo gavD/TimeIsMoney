@@ -7,6 +7,12 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
+/**
+ * The second screen - shows a running cost and has a button to say "meeting
+ * finished"
+ * 
+ * @author Gavin Davies http://www.gavd.co.uk/
+ */
 public class SecondScreenActivity extends FullScreenActivity {
     private TextView textCost;
     private CostTimer counter;

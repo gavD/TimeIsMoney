@@ -8,9 +8,17 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
+/**
+ * The third screen - shows a summary of how much the meeting has cost and how
+ * long it has gone on for
+ * 
+ * @author Gavin Davies http://www.gavd.co.uk/
+ */
 public class ThirdScreenActivity extends FullScreenActivity {
     
-    /** Called when the activity is first created. */
+    /**
+     * Called when the activity is first created.
+     */
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 

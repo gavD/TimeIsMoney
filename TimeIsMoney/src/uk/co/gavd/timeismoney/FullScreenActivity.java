@@ -5,12 +5,19 @@ import android.os.Bundle;
 import android.view.WindowManager;
 import android.view.Window;
 
+/**
+ * A full screened activity
+ * 
+ * Provided as a base class for convenience for the time being but might work better
+ * as a mixin if this grows 
+ * 
+ * @author Gavin Davies http://www.gavd.co.uk/
+ */
 public class FullScreenActivity extends Activity {
 
     /**
-     * Full screen this app so it looks nice on tablets
+     * Called when the activity is first created.
      */
-    /** Called when the activity is first created. */
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         

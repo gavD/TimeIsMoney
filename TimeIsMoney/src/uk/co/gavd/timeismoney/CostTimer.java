@@ -2,6 +2,13 @@ package uk.co.gavd.timeismoney;
 
 import android.os.CountDownTimer;
 
+/**
+ * A timer that counts up and calculates a running cost based upon
+ * the number of people in the meeting and the hourly rate supplied
+ * to the app
+ * 
+ * @author Gavin Davies http://www.gavd.co.uk/
+ */
 public class CostTimer extends CountDownTimer {
 
     private static final long MILLISECONDS_BETWEEN_TICKS = 1000;
@@ -30,6 +37,11 @@ public class CostTimer extends CountDownTimer {
      */
     private SecondScreenActivity view;
     
+    /**
+     * Constructor sets up the timer
+     * 
+     * @param view Activity to report the running cost back to every second
+     */
     public CostTimer(SecondScreenActivity view) {
         
         // TODO how should this be used? i.e. what should we put
@@ -88,18 +100,32 @@ public class CostTimer extends CountDownTimer {
         this.pencePerHour = pencePerHour;
     }
 
+    /**
+     * @return The amount of pennies per hour that the meeting is costing you,
+     * calculated on the basis of your hourly rate and the number of people in
+     * the meeting
+     */
     public int getPencePerHour() {
         return pencePerHour;
     }
 
+    /**
+     * @param people The number of people in the meeting
+     */
     public void setPeople(int people) {
         this.people = people;
     }
 
+    /**
+     * @return The number of people in the meeting
+     */
     public int getPeople() {
         return people;
     }
     
+    /**
+     * @return The number of seconds since the timer was started
+     */
     public int getSeconds() {
         return this.secsElapsed;
     }
