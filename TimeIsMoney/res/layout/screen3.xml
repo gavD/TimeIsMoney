@@ -7,38 +7,37 @@
     <TextView
         android:id="@+id/summary"
         android:layout_width="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
         android:text="@string/summaryPlaceholder"
         android:textSize="40sp" />
-    
+
     <TextView
         android:id="@+id/textInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.00"
+        android:layout_weight="0.64"
         android:padding="25dp"
         android:text="@string/infoPlaceholder"
-        android:textSize="22sp"
         android:textColor="#FFFFFF"
-         />
-    
+        android:textSize="22sp" />
+
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical|center_horizontal"
         android:background="#333333"
+        android:gravity="center_vertical|center_horizontal"
         android:orientation="vertical" >
-        
+
         <Button
             android:id="@+id/btnAction"
             android:layout_width="245dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:text="@string/submit" />
-        
     </LinearLayout>
+
 </LinearLayout>

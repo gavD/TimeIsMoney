@@ -8,7 +8,8 @@
     <string name="stop">stop</string>
     <string name="summaryPlaceholder">Summary</string>
     <string name="costPlaceholder">£12.23</string>
-    <string name="infoPlaceholder">4 people at £460p/h attended
-It cost 80 company minutes</string>
+    <string name="infoPlaceholder">Total: £600.
+4 people at £460p/h attended.
+It cost 80 company minutes.</string>
     <string name="submit">Submit</string>
 </resources>
