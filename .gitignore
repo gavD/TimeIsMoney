@@ -3,3 +3,4 @@ TimeIsMoney/gen
 bin
 *.log
 TimeIsMoneyTest/bin
+*.keystore
